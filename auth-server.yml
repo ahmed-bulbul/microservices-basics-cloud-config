@@ -24,8 +24,7 @@ spring:
     url: jdbc:mysql://localhost:3306/auth
     username: root
     password: 1234
-    driverClassName: com.mysql.jdbc.Driver
-
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     show-sql: false
@@ -42,7 +41,7 @@ spring:
     url: jdbc:mysql://localhost:3306/auth
     username: root
     password: 1234
-    driverClassName: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
